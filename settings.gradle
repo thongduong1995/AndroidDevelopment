@@ -1,3 +1,4 @@
+include ':app:mygroupview'
 include ':app:seekbar'
 include ':app'
 rootProject.name = "AndroidDevelopment"
