@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:shape = "rectangle"
-    xmlns:android = "http://schemas.android.com/apk/res/android" >
+<shape
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+ android:shape="oval"
+ android:innerRadiusRatio="6"
+ android:thicknessRatio="4"
+ android:useLevel="false">
+
  <gradient
-     android:startColor="#062573"
-     android:centerColor="#747F9B"
-     android:endColor="#062573"
-     android:angle="90"
-     android:type="linear"
-     />
+     android:endColor="#FFEB3B"
+     android:startColor="#4CAF50"
+     android:gradientRadius="15dp"
+     android:centerX="0.5"
+     android:centerY="0.5"
+     android:type="radial" />
+
+ <size
+     android:width="40dp"
+     android:height="40dp" />
 </shape>

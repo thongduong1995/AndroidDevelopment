@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LargeRedFront"
+        parent="@style/Widget.AppCompat.Button">
+        <item name="colorButtonNormal">#00BCD4</item>
+        <item name="colorControlHighlight">#FF5722</item>
+        <item name="backgroundColor">#FF5722</item>
+        <item name="colorPrimary">#FF5722</item>
+        <item name="colorAccent">#FF5722</item>
+    </style>
+</resources>
