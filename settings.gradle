@@ -1,3 +1,4 @@
+include ':app:mybutton'
 include ':app:mygroupview'
 include ':app:seekbar'
 include ':app'
